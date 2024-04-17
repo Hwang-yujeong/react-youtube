@@ -14,6 +14,10 @@ import Video from './pages/Video'
 import Search from './pages/Search'
 import Not from './pages/Not'
 
+import Header from './components/section/Header';
+import Main from './components/section/Main';
+import Footer from './components/section/Footer';
+
 function App() {
   return (
     <BrowserRouter>
@@ -26,9 +30,9 @@ function App() {
         <Route path='/gsap' element={<Gsap/>}/>
         <Route path='/port' element={<Port/>}/>
         <Route Port='/youtube' element={<Youtube/>}/>
-        <Route poth='/channel' element={<Channel/>}/>
-        <Route Port='/video' element={<Video/>}/>
-        <Route port='/search' element={<Search/>}/>
+        <Route poth='/channel/:channelld' element={<Channel/>}/>
+        <Route Port='/video/:videold' element={<Video/>}/>
+        <Route port='/search/:searchld' element={<Search/>}/>
         <Route port='*' element={<Not/>}/>
       </Routes>
     </BrowserRouter>    
