@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "nexonLv1";
+    font-weight: 100;
+    font-style: normal;
+    src:url("../../fonts/NexonLv1GothicLight.woff2")format("woff2"),
+    url("../../fonts/NexonLv1GothicLight.woff")format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nexonLv1";
+    font-weight:400;
+    font-style: normal;
+    src: url("../../fonts/NexonLv1GothicRegular.woff2") format("woff2"),
+    url("../../fonts/NexonLv1GothicRegular.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nexonLv1";
+    font-weight:700;
+    font-style: normal;
+    src: url("../../fonts/NexonLv1GothicBold.woff2") format("woff2"),
+    url("../../fonts/NexonLv1GothicBold.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 300;
+    src: url("../../fonts/nanumSquareNeo-Light.woff2") format("woff2"),
+    url("../../fonts/nanumSquareNeo-Light.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight:400;
+    src: url("../../fonts/nanumSquareNeo-Regular.woff2") format("woff2"),
+    url("../../fonts/nanumSquareNeo-Regular.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight:700;
+    src: url("../../fonts/nanumSquareNeo-Bold.woff2") format("woff2"),
+    url("../../fonts/nanumSquareNeo-Bold.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight:800;
+    src: url("../../fonts/nanumSquareNeo-ExtraBold.woff2") format("woff2"),
+    url("../../fonts/nanumSquareNeo-ExtraBold.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 900;
+    src: url("../../fonts/nanumSquareNeo-Black.woff2") format("woff2"),
+    url("../../fonts/nanumSquareNeo-Black.woff") format("woff");
+    font-display: swap;   
+}
