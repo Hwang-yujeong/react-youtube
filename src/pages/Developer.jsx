@@ -1,8 +1,9 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 function Developer() {
     return (
-        <div>Developer</div>
+        <Main>Developer</Main>
     )
 }
 

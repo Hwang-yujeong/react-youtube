@@ -1,8 +1,9 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 function Gsap() {
-    return (
-        <div>Gsap</div>
+    return (        
+        <Main>Gsap</Main>
     )
 }
 

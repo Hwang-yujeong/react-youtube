@@ -1,8 +1,9 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 function Channel() {
     return (
-        <div>Channel</div>
+        <Main>Channel</Main>
     )
 }
 
