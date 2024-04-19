@@ -21,20 +21,24 @@ import Footer from './components/section/Footer';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/today' element={<Today/>}/>
-        <Route path='/developer' element={<Developer/>}/>
-        <Route path='/webd' element={<Webd/>}/>
-        <Route path='/website' element={<Website/>}/>
-        <Route path='/gsap' element={<Gsap/>}/>
-        <Route path='/port' element={<Port/>}/>
-        <Route Port='/youtube' element={<Youtube/>}/>
-        <Route poth='/channel/:channelld' element={<Channel/>}/>
-        <Route Port='/video/:videold' element={<Video/>}/>
-        <Route port='/search/:searchld' element={<Search/>}/>
-        <Route port='*' element={<Not/>}/>
-      </Routes>
+      <Header/>
+      <Main>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/today' element={<Today/>}/>
+          <Route path='/developer' element={<Developer/>}/>
+          <Route path='/webd' element={<Webd/>}/>
+          <Route path='/website' element={<Website/>}/>
+          <Route path='/gsap' element={<Gsap/>}/>
+          <Route path='/port' element={<Port/>}/>
+          <Route Port='/youtube' element={<Youtube/>}/>
+          <Route poth='/channel/:channelld' element={<Channel/>}/>
+          <Route Port='/video/:videold' element={<Video/>}/>
+          <Route port='/search/:searchld' element={<Search/>}/>
+          <Route port='*' element={<Not/>}/>
+        </Routes>
+        </Main>
+      <Footer/>
     </BrowserRouter>    
   );
 }
