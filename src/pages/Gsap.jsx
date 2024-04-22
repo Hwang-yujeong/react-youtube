@@ -3,7 +3,10 @@ import Main from "../components/section/Main";
 
 function Gsap() {
     return (        
-        <Main>Gsap</Main>
+        <Main
+            title="GASP 사이트"
+            description="GSAP 사이트 튜토리얼강의 입니다."
+        >Gsap</Main>
     )
 }
 
