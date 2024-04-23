@@ -1,6 +1,6 @@
 import React from "react";
-import { todayText } from "../../data/today"
-import {Link} from'react-router-dom'
+import { todayText } from "../../data/today";
+import {Link} from'react-router-dom';
 
 function Today() {
     return (
@@ -28,5 +28,4 @@ function Today() {
        </section>
     )
 }
-
 export default Today
