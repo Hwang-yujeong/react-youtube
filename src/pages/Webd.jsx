@@ -1,19 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 
+import VideoCards from '../components/videos/VideoCards'
+
 import { webdText } from "../data/webd";
-import { Link } from "react-router-dom";
 
 function Webd() {
+    const [loading, setLoading] = useState(true);
+    useEffect(()=>{
+        setTimeout(() => {
+            setLoading(false);
+        }, 300);
+    },[]);
+    const weebdPageClass = loading ? 'isLoading' : 'isLoaded';
+
     return (        
         <Main
             title="웹디자인 기능사"
             description="웹디자인 기능사 튜토리얼 강의입니다."
         >
-           <section id="webd">
-             <h2>😮 웹디자인기능사 준비는 이걸로!</h2>
+           <section id="webdPage" className={weebdPageClass}>
+             <h2>😮 웹디자인기능사 한번에 따자!3</h2>
              <div className="video__inner">
-                {webdText.map((video, key)=>(
+                {/* {webdText.map((video, key)=>(
                     <div className="video" key={key}>
                         <div className="video__thumb play_icon">
                             <Link to={`/video/${video.videoId}`}>
@@ -21,7 +30,8 @@ function Webd() {
                             </Link>
                         </div>
                     </div>
-                ))}
+                ))} */}
+                <VideoCards videos={webdText}/>
              </div>
         </section>
         </Main>
