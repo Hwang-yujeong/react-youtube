@@ -38,7 +38,7 @@ function Today() {
                             <p className="desc">{today.desc}</p>
                             <div className="info">
                                 <span className="author">
-                                    <Link to={'/channel/${today.channelld}'}>{today.author}</Link>
+                                    <Link to={'/channel/${today.channelId}'}>{today.author}</Link>
                                 </span>
                                 <span className="date">{today.date}</span>
                             </div>

@@ -44,9 +44,9 @@ function App() {
           <Route path='/gsap' element={<Gsap/>}/>
           <Route path='/port' element={<Port/>}/>
           <Route path='/youtube' element={<Youtube/>}/>
-          <Route poth='/channel/:channelld' element={<Channel/>}/>
-          <Route Port='/video/:videold' element={<Video/>}/>
-          <Route port='/search/:searchld' element={<Search/>}/>
+          <Route poth='/channel/:channelId' element={<Channel/>}/>
+          <Route Port='/video/:videoId' element={<Video/>}/>
+          <Route port='/search/:searchId' element={<Search/>}/>
           <Route port='*' element={<Not/>}/>
         </Routes>
         </Suspense>      

@@ -19,7 +19,7 @@ function Today() {
                 <p className="desc">{todayText[0].desc}</p>
                 <div className="info">
                     <span className="author">
-                        <Link to={'/channel/${todayText[0].channelld}'}>{todayText[0].author}</Link>
+                        <Link to={'/channel/${todayText[0].channelId}'}>{todayText[0].author}</Link>
                     </span>
                     <span className="date">{todayText[0].date}</span>
                 </div>

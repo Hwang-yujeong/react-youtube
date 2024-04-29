@@ -26,7 +26,7 @@ function Today({videos, id}) {
                 <p className="desc">{videos[0].desc}</p>
                 <div className="info">
                     <span className="author">
-                        <Link to={'/channel/${videos[0].channelld}'}>{videos[0].author}</Link>
+                        <Link to={'/channel/${videos[0].channelId}'}>{videos[0].author}</Link>
                     </span>
                     <span className="date">{videos[0].date}</span>
                 </div>
